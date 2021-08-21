@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Guess The Numbers</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="hidden">Guess The Numbers</h1>
+
+        <p class="score" id="score">Number Of Your Guesses: 0</p>
+
+        <div class="containerI hidden">
+            <input class="box" type="number" max="9" min="0" value="0">
+            <input class="box" type="number" max="9" min="0" value="0">
+            <input class="box" type="number" max="9" min="0" value="0">
+            <input class="box" type="number" max="9" min="0" value="0">
+            <input class="box" type="number" max="9" min="0" value="0">
+        </div>
+
+        <button type="button" class="btn hidden" onclick="guessClick();">Try Your Guess</button>
+        <i class="fa fa-refresh" id="refresh" onclick="location.reload(true);"></i>
+
+        <div class="description hidden">
+            <h3>Description of the game</h3>
+            <p style="color: #026496;">If the color of the box is blue, it means that the desired number is less.</p>
+            <p style="color: #b40347;">If the color of the box is red, it means that the desired number is more.</p>
+            <p style="color: #009721;">If the color of the box is green, it means that you have guessed the desired number correctly.</p>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
