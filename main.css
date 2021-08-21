@@ -18,6 +18,38 @@ h1 {
     color: #333333;
 }
 
+input {
+    background-color: #c4c4c4;
+    font-size: 1.5rem;
+    border: 0;
+    padding: 1.2rem 1rem;
+    border-radius: .5rem;
+    margin: 2rem 1rem 5rem 0;
+    outline: none;
+    box-shadow: 5px 5px 10px #868686, -5px -5px 10px #ffffff;
+}
+
+.btn {
+    background-color: #059CE8;
+    border-radius: .4rem;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 1.5rem 2.5rem;
+    transition: all .25s;
+    box-shadow: 5px 5px 10px #035e8b, -5px -5px 10px #07daff;
+}
+
+.btn:hover {
+    background-color: #305568;
+    box-shadow: none;
+}
+
+.btn:active {
+    background-color: #00aaff;
+}
+
 .score {
     font-family: monospace;
     font-size: 1.5rem;
