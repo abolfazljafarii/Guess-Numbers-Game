@@ -73,3 +73,7 @@ i {
 i:hover {
     color: #059CE8 !important;
 }
+
+.show {
+    display: none;
+}
