@@ -1,0 +1,43 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerI {
+    display: flex;
+    justify-content: center;
+}
+
+h3,
+h1 {
+    color: #333333;
+}
+
+.score {
+    font-family: monospace;
+    font-size: 1.5rem;
+    color: #059CE8;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+i {
+    visibility: hidden;
+    font-size: 4rem !important;
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+i:hover {
+    color: #059CE8 !important;
+}
